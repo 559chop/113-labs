@@ -28,6 +28,7 @@ architecture TB of ADDER_TB is
          b <= '0';
 		 cin <= '0';
          wait for 10 ns;
+		 assert(sum ='0' and cout = '0')
 		 report "case 1 failed" severity error; --if not desired output
 		 
          --case2
@@ -35,6 +36,7 @@ architecture TB of ADDER_TB is
          b <= '0';
 		 cin <= '1';
          wait for 10 ns;
+		 assert(sum ='1' and cout = '0')
 		 report "case 2 failed" severity error; --if not desired output
 
          --case3
@@ -42,6 +44,7 @@ architecture TB of ADDER_TB is
          b <= '1';
 		 cin <= '0';
          wait for 10 ns;
+		 assert(sum ='1' and cout = '0')
 		 report "case 3 failed" severity error; --if not desired output
          
          --case4
@@ -49,6 +52,7 @@ architecture TB of ADDER_TB is
          b <= '1';
 		 cin <= '1';
          wait for 10 ns;
+		 assert(sum ='0' and cout = '1')
 		 report "case 4 failed" severity error; --if not desired output
 		 
          --case5
@@ -56,6 +60,7 @@ architecture TB of ADDER_TB is
          b <= '0';
 		 cin <= '0';
          wait for 10 ns;
+		 assert(sum ='1' and cout = '0')
 		 report "case 5 failed" severity error; --if not desired output
 		 
          --case6
@@ -63,6 +68,7 @@ architecture TB of ADDER_TB is
          b <= '0';
 		 cin <= '1';
          wait for 10 ns;
+		 assert(sum ='0' and cout = '1')
 		 report "case 6 failed" severity error; --if not desired output
 
          --case7
@@ -70,6 +76,7 @@ architecture TB of ADDER_TB is
          b <= '1';
 		 cin <= '0';
          wait for 10 ns;
+		 assert(sum ='0' and cout = '1')
 		 report "case 7 failed" severity error; --if not desired output
          
          --case8
@@ -77,6 +84,7 @@ architecture TB of ADDER_TB is
          b <= '1';
 		 cin <= '1';
          wait for 10 ns;
+		 assert(sum ='1' and cout = '1')
 		 report "case 8 failed" severity error; --if not desired output
          
          wait;
@@ -88,5 +96,4 @@ configuration CFG_TB of ADDER_TB is
    for TB
    end for;
 end CFG_TB; --or, lower case is OK (end cfg_TB)
-
 
