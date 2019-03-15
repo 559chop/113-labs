@@ -33,6 +33,17 @@ architecture TB of MUX_TB is
 		 selone <= '0';
 		 seltwo <= '0';
          wait for 10 ns;
+         assert(result='1') --desired output value
+		 report "case 1 failed" severity error; --if not desired output
+		 
+		 --case1.2
+         a <= '0';
+         b <= '1';
+		 c <= '1';
+		 d <= '1';
+		 selone <= '0';
+		 seltwo <= '0';
+         wait for 10 ns;
          assert(result='0') --desired output value
 		 report "case 1 failed" severity error; --if not desired output
 		 
@@ -42,7 +53,18 @@ architecture TB of MUX_TB is
 		 c <= '0';
 		 d <= '0';
 		 selone <= '0';
-		 seltwo <= '0';
+		 seltwo <= '1';
+         wait for 10 ns;
+         assert(result='0') --desired output value
+		 report "case 1 failed" severity error; --if not desired output
+		 
+		 --case2.2
+         a <= '1';
+         b <= '0';
+		 c <= '1';
+		 d <= '1';
+		 selone <= '0';
+		 seltwo <= '1';
          wait for 10 ns;
          assert(result='0') --desired output value
 		 report "case 1 failed" severity error; --if not desired output
@@ -52,22 +74,24 @@ architecture TB of MUX_TB is
          b <= '0';
 		 c <= '1';
 		 d <= '0';
-		 selone <= '0';
+		 selone <= '1';
 		 seltwo <= '0';
          wait for 10 ns;
          assert(result='0') --desired output value
 		 report "case 1 failed" severity error; --if not desired output
 		 
-		 --case4
-         a <= '0';
-         b <= '0';
+		 --case3.2
+         a <= '1';
+         b <= '1';
 		 c <= '0';
 		 d <= '1';
 		 selone <= '1';
-		 seltwo <= '1';
+		 seltwo <= '0';
          wait for 10 ns;
          assert(result='0') --desired output value
 		 report "case 1 failed" severity error; --if not desired output
+		 
+		 
 		 
 		 
          
