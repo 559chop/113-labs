@@ -2,8 +2,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 entity ALU_gate is
-port( a: in std_logic;
-      b: in std_logic;
+port(  a: in std_logic;
+       b: in std_logic;
 	  cin: in std_logic;
 	  op1: in std_logic;
 	  op2: in std_logic;
@@ -61,6 +61,6 @@ begin
 	map_AND: AND_gate port map (a, b, andOut);
 	map_OR: OR_gate port map (a, b, orOut);
 	map_ADDER: ADDER_gate port map (a, b, cin, adderOut, cout);
-	map_MUX: MUX_gate port map (andOut, orOut, adderOut, adderOut, op1, op2, result)
+	map_MUX: MUX_gate port map (andOut, orOut, adderOut, adderOut, op1, op2, result);
 
 end struct;
