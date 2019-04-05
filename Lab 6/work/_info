@@ -1,0 +1,504 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Monica/Desktop/8BitALU_Lab
+Eand_gate
+Z1 w1553903474
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Monica/Desktop/8BitALU_Lab/AND_gate.vhd
+Z5 FC:/Users/Monica/Desktop/8BitALU_Lab/AND_gate.vhd
+l0
+L4
+V6mRMDm?@o^Q@c6MK`__b61
+!s100 chXi`;49T?o9dUnHlYoke0
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1554493051
+!i10b 1
+Z8 !s108 1554493051.000000
+Z9 !s90 -reportprogress|30|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/AND_gate.vhd|
+Z10 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/AND_gate.vhd|
+!i113 1
+Z11 o-work work -O0
+Z12 tExplicit 1
+Abehav
+R2
+R3
+DEx4 work 8 and_gate 0 22 6mRMDm?@o^Q@c6MK`__b61
+l12
+L11
+VcX?3lDe6TSl]1gkFG8k<A0
+!s100 [XeKVS8NZ7^SPlAmaGbd92
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ccfg_tb
+eEightBitALU_TB
+aTB
+Z13 DEx4 work 11 eightbitalu 0 22 `aZQ:IN`DmE>eb=3jWJc>1
+DAx4 work 14 eightbitalu_tb 2 tb 22 lb0;do0HT_]LIE44T:3gc0
+R2
+R3
+Z14 DEx4 work 14 eightbitalu_tb 0 22 =T7_`?374e6R?J7R0Of0k1
+R1
+R0
+Z15 8C:/Users/Monica/Desktop/8BitALU_Lab/8bitALU_TB.vhd
+Z16 FC:/Users/Monica/Desktop/8BitALU_Lab/8bitALU_TB.vhd
+l0
+L536
+VHniM13ELTFeX?PYCf=?1g3
+!s100 7z@O9PX_Mda1OI4dFWI=M0
+R6
+32
+R7
+!i10b 0
+R8
+Z17 !s90 -reportprogress|300|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/8bitALU_TB.vhd|
+Z18 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/8bitALU_TB.vhd|
+!i113 1
+R11
+R12
+Eeightbitalu
+R1
+R2
+R3
+R0
+Z19 8C:/Users/Monica/Desktop/8BitALU_Lab/8bitALU.vhd
+Z20 FC:/Users/Monica/Desktop/8BitALU_Lab/8bitALU.vhd
+l0
+L4
+V`aZQ:IN`DmE>eb=3jWJc>1
+!s100 PU=ZE=5FWm30SgmiE>b3[0
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/8bitALU.vhd|
+Z22 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/8bitALU.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+R13
+l53
+L16
+VEUAS5;VbfZDf0GU4[6SZn3
+!s100 zkZ2LQz^McaU1VIW1;NIU3
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Eeightbitalu_tb
+R1
+R2
+R3
+R0
+R15
+R16
+l0
+L4
+V=T7_`?374e6R?J7R0Of0k1
+!s100 z`o?=J^BiUK:nT@YQi@FQ3
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Atb
+R2
+R3
+R14
+l29
+L7
+Vlb0;do0HT_]LIE44T:3gc0
+!s100 gTV6>In6E40g10DBTW20L3
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Emux
+Z23 w1553903473
+R2
+R3
+R0
+Z24 8C:/Users/Monica/Desktop/8BitALU_Lab/4x1_MUX.vhd
+Z25 FC:/Users/Monica/Desktop/8BitALU_Lab/4x1_MUX.vhd
+l0
+L4
+VN=JOiWhFaQKdK;9>7f5F<3
+!s100 IOD>@?ASPJ_ML7FWH9lY42
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/4x1_MUX.vhd|
+Z27 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/4x1_MUX.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 3 mux 0 22 N=JOiWhFaQKdK;9>7f5F<3
+l57
+L15
+VZ;Z4BQ7oeC1<JUSnflUl30
+!s100 fiDi=7jEeD1kL??4lO7bW3
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Emux_2x1
+R1
+R2
+R3
+R0
+Z28 8C:/Users/Monica/Desktop/8BitALU_Lab/MUX_2x1.vhd
+Z29 FC:/Users/Monica/Desktop/8BitALU_Lab/MUX_2x1.vhd
+l0
+L4
+V834E3@T1SbXEY4<l^;eKQ2
+!s100 TOUXY9aHlPi2jmS^NY0L=3
+R6
+32
+Z30 !s110 1554493052
+!i10b 1
+Z31 !s108 1554493052.000000
+Z32 !s90 -reportprogress|30|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/MUX_2x1.vhd|
+Z33 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/MUX_2x1.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 7 mux_2x1 0 22 834E3@T1SbXEY4<l^;eKQ2
+l38
+L12
+VT^Dn0OjA<FZ9C6aO<:dUO2
+!s100 F`3e8]iAd38<:C4lNiJH51
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Enot_gate
+R1
+R2
+R3
+R0
+Z34 8C:/Users/Monica/Desktop/8BitALU_Lab/NOT_gate.vhd
+Z35 FC:/Users/Monica/Desktop/8BitALU_Lab/NOT_gate.vhd
+l0
+L4
+V[aCTlJRl?BLe>4:^o]LAV3
+!s100 f7Yn^T:X<elf=zWz6SzRz3
+R6
+32
+R30
+!i10b 1
+R31
+Z36 !s90 -reportprogress|30|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/NOT_gate.vhd|
+Z37 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/NOT_gate.vhd|
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 8 not_gate 0 22 [aCTlJRl?BLe>4:^o]LAV3
+l11
+L10
+VWJ:0=YFNj_4[4:QcBS31o3
+!s100 7Q3d7Xzz<OfD6SOEAGYob3
+R6
+32
+R30
+!i10b 1
+R31
+R36
+R37
+!i113 1
+R11
+R12
+Eonebitalu
+R23
+R2
+R3
+R0
+Z38 8C:/Users/Monica/Desktop/8BitALU_Lab/1bitALU.vhd
+Z39 FC:/Users/Monica/Desktop/8BitALU_Lab/1bitALU.vhd
+l0
+L4
+V?]HJ@NYYDRlXEMS]N6hZh0
+!s100 2Af@=;CYPLGKfkcnH1j?Y2
+R6
+32
+R7
+!i10b 1
+R8
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/1bitALU.vhd|
+Z41 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/1bitALU.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 9 onebitalu 0 22 ?]HJ@NYYDRlXEMS]N6hZh0
+l74
+L16
+VLSI@MaFS5CmB4^cZVEf>21
+!s100 a^Lf9??E`k][NP[JH7zMR3
+R6
+32
+R7
+!i10b 1
+R8
+R40
+R41
+!i113 1
+R11
+R12
+Eonebitaluof
+R23
+R2
+R3
+R0
+Z42 8C:/Users/Monica/Desktop/8BitALU_Lab/1bitALU_OF.vhd
+Z43 FC:/Users/Monica/Desktop/8BitALU_Lab/1bitALU_OF.vhd
+l0
+L4
+ViL1U`7Ol9Tn66Zfi2SI8z0
+!s100 BQP:];_XR8R7??E?1ZYS10
+R6
+32
+R7
+!i10b 1
+R8
+Z44 !s90 -reportprogress|300|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/1bitALU_OF.vhd|
+Z45 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/1bitALU_OF.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 11 onebitaluof 0 22 iL1U`7Ol9Tn66Zfi2SI8z0
+l83
+L16
+VL@Akj_CaGn]]g`mcPE7GE2
+!s100 ZZMX[Xn=;ce=BS@WAl7WQ1
+R6
+32
+R7
+!i10b 1
+R8
+R44
+R45
+!i113 1
+R11
+R12
+Eonebitfulladder
+R1
+R2
+R3
+R0
+Z46 8C:/Users/Monica/Desktop/8BitALU_Lab/oneBitFullAdder.vhd
+Z47 FC:/Users/Monica/Desktop/8BitALU_Lab/oneBitFullAdder.vhd
+l0
+L4
+V=jiLY[5GH6[e^GW;b7M[:0
+!s100 WlNGMX[oTD`5aiQg^fAPW0
+R6
+32
+R30
+!i10b 1
+R31
+Z48 !s90 -reportprogress|30|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/oneBitFullAdder.vhd|
+Z49 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/oneBitFullAdder.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 15 onebitfulladder 0 22 =jiLY[5GH6[e^GW;b7M[:0
+l40
+L13
+Voa4Io:e75^7d_Fm;iLh;23
+!s100 ]84_N@m@]B^hWjAU[;;VZ3
+R6
+32
+R30
+!i10b 1
+R31
+R48
+R49
+!i113 1
+R11
+R12
+Eor_gate
+R1
+R2
+R3
+R0
+Z50 8C:/Users/Monica/Desktop/8BitALU_Lab/OR_gate.vhd
+Z51 FC:/Users/Monica/Desktop/8BitALU_Lab/OR_gate.vhd
+l0
+L4
+VR;bbfYc?4STVI6dG2=2_[0
+!s100 dT8oWn<AGGOD8nT:]=nc81
+R6
+32
+R30
+!i10b 1
+R31
+Z52 !s90 -reportprogress|30|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/OR_gate.vhd|
+Z53 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/OR_gate.vhd|
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 7 or_gate 0 22 R;bbfYc?4STVI6dG2=2_[0
+l12
+L11
+V@EN;?CN7VGJW]ODD_3<dB3
+!s100 3Dj:9AAY4IW6^9XBFfPlN0
+R6
+32
+R30
+!i10b 1
+R31
+R52
+R53
+!i113 1
+R11
+R12
+Eway_decoder
+R23
+R2
+R3
+R0
+Z54 8C:/Users/Monica/Desktop/8BitALU_Lab/4waydecoder.vhd
+Z55 FC:/Users/Monica/Desktop/8BitALU_Lab/4waydecoder.vhd
+l0
+L4
+VXkg3HzYe4iMX6O0YhC=z60
+!s100 @;CLCiSE7c1F?bodWR;:30
+R6
+32
+R7
+!i10b 1
+R8
+Z56 !s90 -reportprogress|300|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/4waydecoder.vhd|
+Z57 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/4waydecoder.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 11 way_decoder 0 22 Xkg3HzYe4iMX6O0YhC=z60
+l37
+L14
+ViMTQnN^?zhk7B7bRIHPj:2
+!s100 `f4Emia0K?Qi<K@gb`5gY0
+R6
+32
+R7
+!i10b 1
+R8
+R56
+R57
+!i113 1
+R11
+R12
+Exor_gate
+R1
+R2
+R3
+R0
+Z58 8C:/Users/Monica/Desktop/8BitALU_Lab/XOR_gate.vhd
+Z59 FC:/Users/Monica/Desktop/8BitALU_Lab/XOR_gate.vhd
+l0
+L4
+V6@`VV<j2keXeNENLi083?1
+!s100 SOZzWdJblDZl_]`b4C=:b2
+R6
+32
+R30
+!i10b 1
+R31
+Z60 !s90 -reportprogress|30|-work|work|C:/Users/Monica/Desktop/8BitALU_Lab/XOR_gate.vhd|
+Z61 !s107 C:/Users/Monica/Desktop/8BitALU_Lab/XOR_gate.vhd|
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 8 xor_gate 0 22 6@`VV<j2keXeNENLi083?1
+l12
+L11
+V2N0?zU4IIM71U6nDTndE41
+!s100 KE=9feC[AeYV<Eaj04PF`1
+R6
+32
+R30
+!i10b 1
+R31
+R60
+R61
+!i113 1
+R11
+R12
